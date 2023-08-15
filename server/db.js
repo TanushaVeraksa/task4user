@@ -7,6 +7,6 @@ module.exports = new Sequelize(
     'N5CTz&TXwPH4MR6',
     {
         dialect: 'mysql',
-        host: process.env.DB_HOST,
+        host: 'sql.freedb.tech',
     }
 );
